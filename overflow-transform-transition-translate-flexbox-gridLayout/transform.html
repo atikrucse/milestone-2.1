@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 150px;
+            width: 150px;
+            margin: 2px;   
+        }
+        .outer{
+            background-color: aqua; 
+        }
+        .inner{
+            background-color: blue;
+            transform: scale(.5) rotate(45deg); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Transform</h1>
+    <div class="box outer">
+        <div class="box inner">box-1</div>
+    </div>
+</body>
+</html>
